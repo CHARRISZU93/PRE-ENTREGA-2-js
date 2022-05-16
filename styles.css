@@ -1,0 +1,74 @@
+.logo {
+    width: 100px;
+    padding-top: 30px;
+    padding-left: 45%;
+}
+
+@font-face {
+    font-family: FUENTE1;
+    src: url(media/LeagueGothic-Regular.otf);
+}
+
+@font-face {
+    font-family: FUENTE2;
+    src: url(media/RobotoCondensed-Light.ttf);
+}
+
+.menu ul li {
+    font-size: 34px;
+    font-family: FUENTE1;
+}
+
+.menu ul li a:hover {
+    border-bottom: 3px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: solid;
+    border-color: #ffec38;
+}
+
+ul img {
+    width: 65px;
+    height: 65px;
+    margin-top: -10px;
+}
+
+.titulo {
+    font-size: 50px;
+    justify-content: center;
+    font-family: FUENTE1;
+    text-align: center;
+}
+
+#resultado {
+    font-size: 100px;
+    justify-content: center;
+    font-family: FUENTE2;
+    text-align: center;
+}
+
+.FORMULARIO {
+  font-family: FUENTE1;
+  font-size: 24px;
+  color: black;
+  margin: 0; }
+
+.FORMULARIO_CAMPO {
+  font-family: FUENTE2;
+  height: auto;
+  font-size: 20px;
+  border-color: black;
+  background-color: transparent;
+  border-style: none;
+  width: auto; }
+
+  .BOTON, .nbtn {
+    font-size: FUENTE1;
+    font-size: 14px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 5px;
+    background-color: transparent;
+    font-weight: bold; }

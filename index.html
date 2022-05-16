@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="index.html"><img src="media/a-different-kind-of-mkt.png" class="img-fluid" alt="DKM"></a>
+                </li>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="titulo">CONOCE TU PLAN IDEAL CON DKM</h1>
+
+        <form onsubmit="plan();return false;" class="FORMULARIO">
+            <div>
+            <label for="tipo">Es para...</label>
+            <button type="button" id="tipo" class="rta1">Tu Negocio</button>
+            <button type="button" class="rta2">Donde Trabajas</button>
+            </div>
+            <br>
+            <div id="lugar">
+            <label for="lugar">Estas en...</label>
+            <button type="button" class="rta1">Chile</button>
+            <button type="button" class="rta2">Colombia</button>
+            </div>
+            <br>
+            <div id="tamano">
+            <label for="tamano">N° Empleados: Tienes...</label>
+            <button type="button" class="rta1">Menos de 10</button>
+            <button type="button" class="rta2">Entre 11 y 50</button>
+            <button type="button" class="rta3">Entre 51 y 150</button>
+            <button type="button" class="rta4">Mas de 151</button>
+            </div>
+            <br>
+            <div id="te">
+            <label for="te">La empresa es de...</label>
+            <button type="button" class="rta1">Productos</button>
+            <button type="button" class="rta2">Servicios</button>
+            </div>
+            <br>
+            <div id="pl">
+            <label for="pl">La empresa ofrece y vende productos/servicios...</label>
+            <button type="button" class="rta1">Presencial</button>
+            <button type="button" class="rta2">Online</button>
+            <button type="button" class="rta3">Otro</button>
+            </div>
+            <br>
+            <div id="rs">
+            <label for="rs">¿Tu marca tiene redes sociales?</label>
+            <button type="button" class="rta1">Si</button>
+            <button type="button" class="rta2">No</button>
+            </div>
+            <br>
+            <div id="rc">
+            <label for="rc">Respondes comentarios de tus publicaciones</label>
+            <button type="button" class="rta1">Si</button>
+            <button type="button" class="rta2">No</button>
+            </div>
+            <br>
+            <div id="ep">
+            <label for="ep">Conoces la efectividad de tus interacciones en redes</label>
+            <button type="button" class="rta1">Si</button>
+            <button type="button" class="rta2">No</button>
+            </div>
+            <br>
+            <div id="wb">
+            <label for="wb">¿Tu marca tiene pagina web propia?</label>
+            <button type="button" class="rta1">Si</button>
+            <button type="button" class="rta2">No</button>
+            </div>
+            <br>
+            <div id="pg">
+            <label for="pg">La empresa busca con DKM:</label>
+            <button type="button" class="rta1">Aumentar ventas</button>
+            <button type="button" class="rta2">Mejorar exposicion de marca</button>
+            <button type="button" class="rta3">Otro</button>
+            </div>
+            <br>
+            <div>
+            <label>Aceptas tratamiento de datos para podernos contactar contigo</label>
+            <input class="FORMULARIO_CAMPO" type="radio" id="fsi" name="COND" value="si" checked>
+            <label for="fsi">Si</label>
+            <input class="FORMULARIO_CAMPO" type="radio" id="fno" value="no" name="COND">
+            <label for="fno">No</label>
+            </div>
+            <br>
+            <label for="nombre">Ingresa el nombre de tu empresa/nombre</label>
+            <input class="FORMULARIO_CAMPO" type="text" id="nombre" required placeholder="Nombre">
+            <br>
+            <label for="email">Ingresa tu correo electronico</label>
+            <input class="FORMULARIO_CAMPO" type="email" id="email" required placeholder="Correo Electronico">
+            <br>
+            <label for="telefono">Ingresa tu numero de contacto y/o WhatsApp</label>
+            <input class="FORMULARIO_CAMPO" type="number" id="telefono" required placeholder="Nombre">
+            <br>
+            <input class="nbtn" type="submit">
+        </form>
+    </main>
+
+    <div id="resultado">
+        <p></p>
+    </div>
+</body>
+
+</html>
